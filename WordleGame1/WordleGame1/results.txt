@@ -1,0 +1,2 @@
+Word: CHEST wynik: 0 proba: 5
+Word: OWNER wynik: 0 proba: 6

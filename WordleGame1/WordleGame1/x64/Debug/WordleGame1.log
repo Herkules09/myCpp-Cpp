@@ -1,0 +1,23 @@
+﻿  Score.cpp
+  Validation.cpp
+  Wordle.cpp
+  WordleGame1.cpp
+C:\Users\michk\source\repos\WordleGame1\WordleGame1\WordleGame1.cpp(78,11): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  WordleWord.cpp
+  WordsBase.cpp
+C:\Users\michk\source\repos\WordleGame1\WordleGame1\LinkedList.h(81,19): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\michk\source\repos\WordleGame1\WordleGame1\LinkedList.h(79,1): message : podczas kompilowania funkcji składowej „T LinkedList<T>::getRandomElement(void)” klasy klasa szablon
+          with
+          [
+              T=std::string
+          ]
+C:\Users\michk\source\repos\WordleGame1\WordleGame1\WordsBase.cpp(29,2): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „T LinkedList<T>::getRandomElement(void)” funkcji szablon
+          with
+          [
+              T=std::string
+          ]
+C:\Users\michk\source\repos\WordleGame1\WordleGame1\WordsBase.h(8,21): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „LinkedList<std::string>” klasy klasa szablon
+  Word_Score.cpp
+  Generowanie kodu...
+C:\Users\michk\source\repos\WordleGame1\WordleGame1\LinkedList.h(76): warning C4715: "LinkedList<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::get”: niewszystkie ścieżki kodu zwracają wartość
+  WordleGame1.vcxproj -> C:\Users\michk\source\repos\WordleGame1\x64\Debug\WordleGame1.exe
