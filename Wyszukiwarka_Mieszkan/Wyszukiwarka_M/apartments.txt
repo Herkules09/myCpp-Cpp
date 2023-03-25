@@ -1,0 +1,200 @@
+kamienica;780500;35;Bydgoszcz;Wladyslawa Reymonta 7;5;44;23
+kamienica;540000;50;Rzeszow;Tomasza 12;1;72;67
+apartamentowiec;780500;85;Bydgoszcz;Mickiewicza 9;7;50;32
+blok;2000000;100;Gdansk;Prosta 5;2;36;10
+loft;780500;40;Bydgoszcz;Prosta 5;4;22;88
+loft;1500000;80;Bialystok;Pszczynska 32;4;79;66
+apartamentowiec;234000;68;Olsztyn;Prosta 5;7;18;98
+blok;234000;20;Poznan;Polska 20;3;14;64
+apartamentowiec;150000;95;Gdynia;Wolnosci 4;2;44;41
+loft;680000;37;Bydgoszcz;Krzywa 8;3;14;92
+apartamentowiec;780500;40;Gliwice;Kolorowa 23;4;77;46
+loft;1540000;37;Gliwice;Mietka 1;4;41;83
+apartamentowiec;300000;85;Poznan;Mietka 1;2;41;63
+loft;2000000;66;Opole;Krzywa 8;6;56;25
+blok;300000;62;Bydgoszcz;Kamienista 30;5;40;61
+apartamentowiec;1000000;89;Bialystok;Krzywa 8;2;10;18
+loft;1500000;65;Krakow;Kamienista 30;3;87;47
+kamienica;150000;97;Bydgoszcz;Jana Matejki 14;4;92;63
+apartamentowiec;500000;66;Wroclaw;Krzywa 8;4;22;40
+loft;500000;100;Krakow;Mietka 1;7;33;84
+apartamentowiec;960000;97;Gdynia;Jana Matejki 14;5;81;75
+loft;975000;97;Bialystok;Tomasza 12;5;17;58
+apartamentowiec;400000;100;Wroclaw;Krzywa 8;1;18;46
+loft;234000;45;Lublin;Wolnosci 4;5;82;11
+kamienica;1000000;37;Opole;Polska 20;3;76;26
+blok;500000;45;Rzeszow;Polska 20;5;33;22
+loft;750000;35;Gdynia;Wladyslawa Reymonta 7;5;31;42
+apartamentowiec;540000;25;Krakow;Krzywa 8;2;57;98
+kamienica;390000;50;Gliwice;Mietka 1;6;55;39
+loft;400000;66;Rzeszow;Wladyslawa Reymonta 7;4;19;46
+kamienica;500000;50;Rzeszow;Wolnosci 4;5;19;74
+kamienica;750000;48;Gdynia;Pszczynska 32;3;86;58
+loft;300000;52;Gdansk;Wolnosci 4;7;33;50
+apartamentowiec;1200000;62;Gliwice;Jana Matejki 14;3;73;27
+blok;300000;48;Katowice;Krzywa 8;4;59;82
+apartamentowiec;750000;75;Bydgoszcz;Krzywa 8;3;42;59
+kamienica;500000;50;Szczecin;Polska 20;6;53;11
+blok;500000;55;Krakow;Pszczynska 32;1;55;40
+blok;975000;50;Opole;Wladyslawa Reymonta 7;1;87;89
+apartamentowiec;250000;97;Gliwice;Jana Matejki 14;3;38;70
+blok;250000;89;Rzeszow;Pszczynska 32;4;34;23
+kamienica;234000;50;Gliwice;Jana Matejki 14;5;30;39
+kamienica;234000;30;Szczecin;Kubusia Puchatka 17;4;71;10
+apartamentowiec;300000;68;Opole;Krzywa 8;1;23;53
+kamienica;250000;45;Rzeszow;Tomasza 12;4;79;79
+kamienica;680000;65;Lublin;Kamienista 30;5;17;84
+loft;250000;45;Katowice;Krzywa 8;2;94;31
+kamienica;680000;35;Wroclaw;Wolnosci 4;7;65;53
+loft;680000;97;Poznan;Jana Matejki 14;3;85;10
+kamienica;680000;85;Szczecin;Polska 20;1;60;24
+apartamentowiec;400000;35;Rzeszow;Polska 20;4;21;37
+apartamentowiec;1000000;60;Opole;Pszczynska 32;5;15;97
+kamienica;150000;85;Rzeszow;Wolnosci 4;2;60;54
+loft;540000;70;Lublin;Kubusia Puchatka 17;1;63;58
+apartamentowiec;250000;55;Gliwice;Prosta 5;5;86;16
+loft;234000;97;Gliwice;Wolnosci 4;7;18;17
+kamienica;300000;97;Szczecin;Mietka 1;1;25;94
+blok;500000;37;Katowice;Pszczynska 32;5;51;27
+loft;780500;80;Lublin;Wladyslawa Reymonta 7;1;47;19
+loft;980000;66;Bydgoszcz;Mietka 1;4;59;95
+apartamentowiec;960000;97;Kielce;Tomasza 12;7;73;81
+blok;980000;70;Gdansk;Jana Matejki 14;5;86;15
+apartamentowiec;980000;37;Wroclaw;Jana Matejki 14;4;29;83
+apartamentowiec;960000;20;Gdynia;Tomasza 12;1;89;58
+blok;750000;85;Bialystok;Mickiewicza 9;4;31;69
+blok;250000;35;Poznan;Pszczynska 32;6;87;21
+kamienica;150000;50;Bydgoszcz;Polska 20;4;21;62
+loft;975000;97;Opole;Krzywa 8;7;80;73
+loft;390000;100;Opole;Tomasza 12;3;52;77
+apartamentowiec;390000;45;Olsztyn;Kamienista 30;7;79;14
+kamienica;400000;40;Warszawa;Polska 20;4;53;77
+blok;680000;70;Lublin;Jana Matejki 14;6;41;15
+loft;390000;20;Gdynia;Tomasza 12;3;23;27
+blok;750000;52;Kielce;Kubusia Puchatka 17;5;49;50
+loft;540000;37;Krakow;Wladyslawa Reymonta 7;5;90;31
+blok;234000;95;Opole;Mickiewicza 9;5;20;27
+blok;1200000;97;Olsztyn;Prosta 5;1;75;14
+blok;390000;60;Olsztyn;Wolnosci 4;4;98;92
+apartamentowiec;540000;89;Bydgoszcz;Kubusia Puchatka 17;5;42;21
+blok;540000;97;Gdynia;Polska 20;7;88;57
+apartamentowiec;500000;30;Rzeszow;Kamienista 30;7;90;33
+blok;975000;62;Opole;Wolnosci 4;6;11;80
+kamienica;250000;45;Kielce;Kubusia Puchatka 17;1;27;39
+apartamentowiec;960000;60;Bydgoszcz;Tomasza 12;5;91;53
+kamienica;400000;89;Bialystok;Tomasza 12;7;69;56
+apartamentowiec;540000;45;Bialystok;Wolnosci 4;7;47;36
+apartamentowiec;750000;52;Rzeszow;Kubusia Puchatka 17;3;29;53
+loft;750000;85;Gliwice;Wolnosci 4;1;76;30
+kamienica;2000000;35;Gliwice;Prosta 5;7;52;71
+blok;440000;97;Krakow;Krzywa 8;1;52;73
+blok;500000;45;Rzeszow;Mickiewicza 9;3;61;24
+loft;1500000;45;Krakow;Mietka 1;7;48;75
+apartamentowiec;960000;70;Warszawa;Kubusia Puchatka 17;5;28;19
+kamienica;1000000;100;Bydgoszcz;Mietka 1;5;81;91
+loft;234000;37;Warszawa;Wolnosci 4;1;77;99
+loft;960000;66;Wroclaw;Krzywa 8;1;32;15
+kamienica;400000;30;Warszawa;Pszczynska 32;4;15;36
+kamienica;980000;48;Gliwice;Prosta 5;2;56;86
+apartamentowiec;390000;40;Gdynia;Krzywa 8;1;70;26
+kamienica;780500;20;Krakow;Kamienista 30;2;93;10
+blok;540000;55;Gdynia;Kubusia Puchatka 17;1;61;60
+blok;760000;45;Gliwice;Kubusia Puchatka 17;3;94;34
+loft;440000;97;Warszawa;Tomasza 12;1;54;12
+apartamentowiec;780500;45;Katowice;Tomasza 12;2;63;36
+kamienica;1200000;100;Poznan;Wladyslawa Reymonta 7;4;62;99
+apartamentowiec;300000;40;Warszawa;Kamienista 30;3;13;72
+kamienica;150000;75;Rzeszow;Pszczynska 32;7;88;66
+loft;500000;70;Gliwice;Pszczynska 32;3;81;43
+apartamentowiec;400000;30;Szczecin;Kubusia Puchatka 17;4;63;76
+loft;780500;37;Szczecin;Pszczynska 32;3;79;85
+blok;2000000;45;Bialystok;Kolorowa 23;6;91;92
+loft;960000;40;Rzeszow;Tomasza 12;4;31;85
+kamienica;390000;80;Bydgoszcz;Mietka 1;7;36;63
+loft;540000;80;Gdynia;Jana Matejki 14;5;79;95
+kamienica;234000;62;Kielce;Prosta 5;2;92;85
+kamienica;980000;65;Gdansk;Polska 20;4;33;98
+kamienica;390000;25;Wroclaw;Tomasza 12;2;60;51
+apartamentowiec;400000;20;Wroclaw;Wolnosci 4;3;93;46
+apartamentowiec;960000;89;Bydgoszcz;Wolnosci 4;5;70;14
+loft;440000;85;Olsztyn;Kolorowa 23;2;44;97
+kamienica;1200000;89;Bydgoszcz;Mickiewicza 9;6;12;95
+blok;680000;95;Opole;Mickiewicza 9;4;60;28
+blok;400000;65;Opole;Mickiewicza 9;7;40;21
+blok;400000;35;Warszawa;Krzywa 8;3;73;83
+loft;440000;95;Olsztyn;Mickiewicza 9;2;46;64
+apartamentowiec;300000;80;Opole;Kolorowa 23;6;38;48
+loft;300000;52;Warszawa;Wladyslawa Reymonta 7;4;33;69
+blok;1000000;45;Lublin;Wolnosci 4;3;48;63
+apartamentowiec;760000;37;Poznan;Pszczynska 32;1;12;86
+apartamentowiec;500000;65;Lublin;Prosta 5;2;32;90
+blok;2000000;66;Kielce;Prosta 5;2;59;94
+loft;975000;45;Poznan;Mickiewicza 9;1;43;13
+apartamentowiec;2000000;50;Bialystok;Mickiewicza 9;7;31;97
+apartamentowiec;780500;30;Gliwice;Polska 20;2;70;48
+kamienica;390000;85;Poznan;Wladyslawa Reymonta 7;3;35;29
+blok;980000;70;Opole;Krzywa 8;4;65;89
+loft;150000;30;Gdynia;Kubusia Puchatka 17;5;22;23
+blok;1540000;45;Szczecin;Wolnosci 4;7;56;79
+blok;760000;35;Rzeszow;Kolorowa 23;3;31;63
+apartamentowiec;234000;48;Gdynia;Krzywa 8;3;60;72
+kamienica;1500000;80;Gdynia;Mietka 1;7;19;50
+apartamentowiec;300000;75;Warszawa;Krzywa 8;2;92;28
+loft;750000;62;Bydgoszcz;Tomasza 12;1;35;96
+apartamentowiec;980000;25;Warszawa;Wladyslawa Reymonta 7;3;27;93
+blok;440000;48;Gliwice;Kamienista 30;4;64;74
+apartamentowiec;2000000;85;Gdynia;Pszczynska 32;1;34;35
+blok;780500;100;Bialystok;Polska 20;1;85;41
+kamienica;390000;65;Bialystok;Wolnosci 4;1;70;89
+blok;440000;75;Rzeszow;Mickiewicza 9;4;98;79
+apartamentowiec;150000;97;Gdynia;Wolnosci 4;3;71;28
+apartamentowiec;960000;35;Gliwice;Prosta 5;2;79;34
+loft;975000;100;Gdansk;Kolorowa 23;3;63;85
+kamienica;400000;25;Lublin;Kolorowa 23;6;51;39
+kamienica;250000;68;Bydgoszcz;Prosta 5;5;45;18
+blok;980000;52;Lublin;Prosta 5;5;12;56
+blok;150000;37;Krakow;Tomasza 12;2;85;75
+blok;400000;68;Kielce;Kolorowa 23;6;94;88
+loft;234000;25;Krakow;Wladyslawa Reymonta 7;7;97;97
+blok;1500000;52;Wroclaw;Prosta 5;1;37;54
+kamienica;760000;37;Bydgoszcz;Tomasza 12;3;95;61
+loft;1500000;55;Bialystok;Prosta 5;2;70;79
+loft;540000;30;Katowice;Jana Matejki 14;4;55;77
+kamienica;390000;30;Gliwice;Pszczynska 32;3;37;59
+blok;440000;68;Lublin;Pszczynska 32;6;61;30
+blok;1200000;35;Krakow;Pszczynska 32;4;22;55
+loft;975000;55;Szczecin;Mickiewicza 9;6;48;28
+loft;390000;37;Bialystok;Polska 20;1;54;91
+loft;975000;100;Poznan;Pszczynska 32;7;81;41
+kamienica;300000;80;Rzeszow;Prosta 5;1;33;17
+apartamentowiec;2000000;55;Olsztyn;Mietka 1;3;54;91
+apartamentowiec;250000;20;Warszawa;Kolorowa 23;1;37;68
+blok;680000;52;Szczecin;Krzywa 8;4;14;56
+blok;390000;45;Bydgoszcz;Kolorowa 23;1;59;57
+blok;760000;55;Kielce;Pszczynska 32;3;89;49
+apartamentowiec;500000;97;Poznan;Wladyslawa Reymonta 7;3;81;86
+kamienica;1200000;70;Katowice;Jana Matejki 14;6;26;30
+loft;1000000;48;Olsztyn;Jana Matejki 14;7;53;87
+apartamentowiec;1200000;75;Krakow;Wolnosci 4;6;25;18
+loft;540000;95;Katowice;Kubusia Puchatka 17;6;47;35
+blok;960000;30;Gdynia;Pszczynska 32;5;58;72
+blok;760000;65;Szczecin;Kubusia Puchatka 17;5;23;86
+apartamentowiec;390000;48;Rzeszow;Jana Matejki 14;1;31;37
+apartamentowiec;1200000;45;Olsztyn;Polska 20;5;90;79
+loft;975000;100;Rzeszow;Pszczynska 32;5;67;30
+apartamentowiec;780500;60;Wroclaw;Kolorowa 23;1;24;23
+kamienica;150000;97;Warszawa;Krzywa 8;7;39;99
+kamienica;540000;52;Kielce;Wolnosci 4;6;41;77
+kamienica;1500000;50;Bydgoszcz;Pszczynska 32;4;54;88
+blok;980000;66;Lublin;Tomasza 12;3;26;33
+loft;1200000;89;Poznan;Mietka 1;4;30;30
+kamienica;980000;40;Lublin;Kolorowa 23;6;33;86
+apartamentowiec;2000000;66;Kielce;Prosta 5;1;44;63
+blok;234000;40;Szczecin;Kolorowa 23;2;52;68
+kamienica;540000;52;Wroclaw;Tomasza 12;3;79;13
+loft;980000;55;Olsztyn;Pszczynska 32;4;64;39
+apartamentowiec;760000;95;Gliwice;Kolorowa 23;3;17;17
+kamienica;390000;30;Kielce;Wolnosci 4;4;67;60
+kamienica;1500000;97;Opole;Tomasza 12;2;62;12
+kamienica;540000;25;Szczecin;Tomasza 12;4;55;58
+kamienica;960000;52;Olsztyn;Polska 20;4;64;26dssad;2134;23;dasasfg;dfsa 2;3;12; 44

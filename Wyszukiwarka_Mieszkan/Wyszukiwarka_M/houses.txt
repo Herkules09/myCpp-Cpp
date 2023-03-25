@@ -1,0 +1,200 @@
+gospodarstwo;1500000;25;Wroclaw;Mietka 1;1;87;44
+wolnostojacy;150000;40;Warszawa;Wladyslawa Reymonta 7;0;81;70
+wolnostojacy;750000;48;Bydgoszcz;Tomasza 12;0;87;70
+szeregowiec;780500;68;Olsztyn;Kubusia Puchatka 17;1;76;45
+wolnostojacy;2000000;75;Olsztyn;Pszczynska 32;0;95;85
+wolnostojacy;150000;65;Rzeszow;Kolorowa 23;0;87;23
+dworek;1000000;80;Rzeszow;Tomasza 12;0;72;29
+gospodarstwo;750000;48;Kielce;Mietka 1;0;39;36
+szeregowiec;250000;50;Krakow;Kubusia Puchatka 17;0;63;64
+gospodarstwo;980000;20;Bialystok;Jana Matejki 14;1;98;84
+dworek;234000;52;Bydgoszcz;Tomasza 12;0;10;50
+wolnostojacy;300000;95;Bialystok;Wolnosci 4;0;39;72
+szeregowiec;980000;20;Krakow;Pszczynska 32;1;12;79
+gospodarstwo;750000;85;Olsztyn;Jana Matejki 14;1;43;43
+szeregowiec;1500000;85;Gdansk;Kolorowa 23;0;78;67
+szeregowiec;540000;50;Opole;Jana Matejki 14;1;74;37
+gospodarstwo;390000;68;Wroclaw;Kubusia Puchatka 17;0;98;33
+gospodarstwo;250000;50;Olsztyn;Wolnosci 4;0;56;43
+szeregowiec;780500;50;Bialystok;Krzywa 8;0;35;73
+dworek;1540000;20;Gdynia;Kolorowa 23;0;57;52
+dworek;500000;66;Warszawa;Tomasza 12;1;40;15
+wolnostojacy;250000;45;Poznan;Kubusia Puchatka 17;1;25;12
+dworek;1540000;80;Kielce;Mietka 1;0;44;52
+wolnostojacy;1500000;68;Szczecin;Prosta 5;1;47;51
+wolnostojacy;980000;85;Lublin;Mickiewicza 9;1;71;84
+dworek;440000;48;Opole;Krzywa 8;0;81;63
+blizniak;1000000;65;Olsztyn;Kamienista 30;1;22;52
+szeregowiec;975000;85;Bialystok;Kolorowa 23;0;33;50
+blizniak;1000000;70;Krakow;Polska 20;0;68;42
+blizniak;680000;20;Rzeszow;Kamienista 30;0;82;33
+dworek;780500;100;Gliwice;Kubusia Puchatka 17;1;95;51
+blizniak;500000;37;Warszawa;Kamienista 30;0;52;58
+blizniak;1200000;45;Kielce;Kolorowa 23;0;62;97
+blizniak;250000;35;Kielce;Kolorowa 23;1;37;10
+szeregowiec;1000000;80;Olsztyn;Wolnosci 4;0;82;90
+dworek;1200000;60;Olsztyn;Wladyslawa Reymonta 7;0;72;57
+wolnostojacy;975000;30;Olsztyn;Pszczynska 32;0;88;28
+blizniak;540000;20;Krakow;Mietka 1;1;77;63
+gospodarstwo;780500;55;Olsztyn;Kolorowa 23;1;80;97
+blizniak;2000000;50;Krakow;Krzywa 8;1;16;42
+blizniak;390000;65;Lublin;Kubusia Puchatka 17;0;49;26
+blizniak;760000;68;Rzeszow;Prosta 5;1;84;82
+dworek;750000;40;Warszawa;Krzywa 8;1;58;99
+dworek;680000;30;Krakow;Wolnosci 4;1;85;68
+gospodarstwo;760000;80;Gliwice;Pszczynska 32;1;73;26
+gospodarstwo;400000;97;Wroclaw;Jana Matejki 14;1;66;24
+wolnostojacy;390000;60;Opole;Pszczynska 32;0;17;97
+blizniak;680000;30;Krakow;Prosta 5;0;16;89
+wolnostojacy;250000;97;Wroclaw;Mickiewicza 9;1;23;22
+dworek;1540000;50;Bialystok;Polska 20;0;82;40
+blizniak;2000000;45;Szczecin;Jana Matejki 14;0;76;86
+szeregowiec;540000;100;Kielce;Kamienista 30;0;78;48
+gospodarstwo;440000;70;Kielce;Mickiewicza 9;0;95;99
+wolnostojacy;300000;85;Opole;Tomasza 12;0;12;55
+dworek;1200000;35;Warszawa;Krzywa 8;1;34;58
+gospodarstwo;250000;30;Gdynia;Wolnosci 4;1;68;78
+gospodarstwo;1200000;85;Warszawa;Wladyslawa Reymonta 7;1;51;46
+dworek;300000;20;Lublin;Mietka 1;1;71;97
+gospodarstwo;960000;62;Szczecin;Kolorowa 23;1;78;67
+gospodarstwo;400000;55;Lublin;Mickiewicza 9;1;61;90
+wolnostojacy;680000;95;Gdansk;Polska 20;0;54;13
+wolnostojacy;440000;65;Warszawa;Polska 20;0;44;84
+dworek;440000;25;Opole;Tomasza 12;0;59;75
+wolnostojacy;680000;20;Kielce;Kubusia Puchatka 17;0;86;12
+wolnostojacy;975000;65;Opole;Kubusia Puchatka 17;1;25;52
+gospodarstwo;540000;66;Gliwice;Mietka 1;1;25;14
+szeregowiec;760000;80;Gdansk;Kamienista 30;0;77;42
+wolnostojacy;960000;85;Rzeszow;Prosta 5;0;24;84
+gospodarstwo;960000;20;Bialystok;Kamienista 30;1;16;12
+gospodarstwo;1540000;48;Olsztyn;Polska 20;0;42;55
+szeregowiec;780500;45;Szczecin;Prosta 5;1;41;72
+wolnostojacy;300000;40;Warszawa;Polska 20;1;71;39
+szeregowiec;960000;50;Olsztyn;Wladyslawa Reymonta 7;0;13;18
+wolnostojacy;150000;55;Warszawa;Prosta 5;0;75;93
+szeregowiec;750000;95;Szczecin;Tomasza 12;1;14;20
+dworek;1540000;60;Szczecin;Prosta 5;1;76;18
+gospodarstwo;680000;52;Warszawa;Pszczynska 32;0;57;66
+dworek;250000;97;Gdansk;Kolorowa 23;1;54;93
+szeregowiec;2000000;20;Kielce;Mickiewicza 9;0;87;55
+dworek;750000;68;Wroclaw;Pszczynska 32;0;26;66
+szeregowiec;500000;70;Gliwice;Mietka 1;0;96;71
+blizniak;750000;37;Katowice;Kubusia Puchatka 17;1;14;88
+szeregowiec;960000;100;Szczecin;Wolnosci 4;1;15;98
+blizniak;500000;75;Katowice;Krzywa 8;0;34;45
+blizniak;1000000;20;Gliwice;Kubusia Puchatka 17;0;65;28
+szeregowiec;960000;89;Katowice;Prosta 5;1;35;35
+dworek;500000;52;Szczecin;Jana Matejki 14;1;48;31
+blizniak;150000;20;Katowice;Jana Matejki 14;0;57;75
+dworek;750000;100;Kielce;Prosta 5;1;79;90
+wolnostojacy;760000;66;Kielce;Kolorowa 23;1;54;40
+dworek;1200000;100;Warszawa;Kolorowa 23;0;15;23
+blizniak;150000;95;Bialystok;Jana Matejki 14;1;88;70
+szeregowiec;980000;95;Wroclaw;Kolorowa 23;1;27;55
+gospodarstwo;1000000;68;Gliwice;Mietka 1;0;39;13
+blizniak;1500000;70;Opole;Jana Matejki 14;0;46;12
+wolnostojacy;500000;20;Poznan;Mickiewicza 9;1;70;48
+dworek;2000000;35;Warszawa;Jana Matejki 14;0;18;45
+gospodarstwo;390000;62;Kielce;Tomasza 12;0;72;53
+wolnostojacy;960000;95;Szczecin;Tomasza 12;0;32;55
+wolnostojacy;440000;20;Wroclaw;Wolnosci 4;0;65;81
+dworek;1000000;52;Poznan;Prosta 5;1;99;16
+dworek;975000;75;Katowice;Kubusia Puchatka 17;1;22;53
+dworek;150000;40;Warszawa;Tomasza 12;0;97;89
+gospodarstwo;680000;40;Krakow;Krzywa 8;1;74;67
+szeregowiec;780500;65;Lublin;Pszczynska 32;0;87;70
+szeregowiec;1500000;75;Gliwice;Prosta 5;0;40;80
+wolnostojacy;680000;75;Szczecin;Mietka 1;0;18;40
+dworek;250000;70;Gliwice;Prosta 5;0;47;58
+dworek;1540000;60;Lublin;Mietka 1;0;98;51
+wolnostojacy;1000000;80;Krakow;Tomasza 12;1;40;11
+wolnostojacy;150000;52;Opole;Wolnosci 4;0;62;93
+szeregowiec;150000;75;Szczecin;Kolorowa 23;1;64;20
+gospodarstwo;500000;48;Bialystok;Wladyslawa Reymonta 7;1;97;38
+dworek;400000;37;Gdansk;Kolorowa 23;0;74;60
+szeregowiec;1540000;37;Warszawa;Tomasza 12;1;74;66
+blizniak;975000;68;Gliwice;Wolnosci 4;0;50;80
+blizniak;780500;35;Kielce;Tomasza 12;1;80;38
+dworek;300000;70;Lublin;Kamienista 30;0;45;81
+szeregowiec;1200000;35;Olsztyn;Mietka 1;0;45;32
+wolnostojacy;960000;85;Krakow;Kamienista 30;0;56;81
+blizniak;400000;100;Poznan;Wladyslawa Reymonta 7;1;99;98
+szeregowiec;234000;45;Olsztyn;Pszczynska 32;0;65;19
+blizniak;680000;95;Olsztyn;Tomasza 12;1;61;46
+blizniak;234000;40;Wroclaw;Kamienista 30;0;84;36
+gospodarstwo;250000;30;Olsztyn;Kamienista 30;1;35;20
+szeregowiec;1200000;95;Opole;Prosta 5;1;95;47
+wolnostojacy;960000;35;Gliwice;Wladyslawa Reymonta 7;0;81;90
+dworek;1500000;62;Katowice;Mickiewicza 9;0;54;41
+gospodarstwo;750000;89;Gdansk;Wolnosci 4;1;91;32
+wolnostojacy;400000;65;Gdynia;Pszczynska 32;0;54;77
+blizniak;300000;62;Kielce;Krzywa 8;1;96;91
+wolnostojacy;760000;70;Gdynia;Polska 20;0;47;94
+gospodarstwo;760000;45;Gdansk;Wladyslawa Reymonta 7;0;37;61
+blizniak;960000;70;Gliwice;Pszczynska 32;0;61;96
+gospodarstwo;780500;25;Kielce;Prosta 5;1;19;96
+dworek;2000000;55;Gliwice;Kamienista 30;0;59;80
+dworek;390000;20;Opole;Pszczynska 32;0;51;64
+dworek;390000;62;Krakow;Mietka 1;0;95;80
+wolnostojacy;540000;75;Bialystok;Wladyslawa Reymonta 7;1;15;23
+dworek;400000;30;Gliwice;Pszczynska 32;1;49;62
+dworek;390000;25;Rzeszow;Mietka 1;1;72;34
+gospodarstwo;250000;52;Bydgoszcz;Prosta 5;1;73;92
+gospodarstwo;1000000;40;Gdansk;Wolnosci 4;1;65;61
+szeregowiec;540000;100;Katowice;Krzywa 8;0;81;88
+szeregowiec;980000;80;Kielce;Wolnosci 4;0;52;67
+szeregowiec;760000;70;Gdansk;Mickiewicza 9;0;50;75
+gospodarstwo;2000000;95;Bydgoszcz;Kamienista 30;1;34;29
+gospodarstwo;1000000;55;Lublin;Mickiewicza 9;0;87;11
+gospodarstwo;234000;85;Gdynia;Mickiewicza 9;1;20;75
+szeregowiec;400000;25;Katowice;Kamienista 30;1;12;67
+szeregowiec;440000;20;Rzeszow;Mietka 1;1;69;83
+szeregowiec;1000000;55;Gdansk;Wolnosci 4;0;25;42
+szeregowiec;1000000;35;Poznan;Jana Matejki 14;1;79;18
+gospodarstwo;1200000;60;Bialystok;Jana Matejki 14;0;64;79
+blizniak;540000;100;Gliwice;Pszczynska 32;0;87;27
+blizniak;980000;70;Bialystok;Tomasza 12;1;81;18
+wolnostojacy;234000;30;Poznan;Kamienista 30;0;48;50
+szeregowiec;1540000;97;Krakow;Kubusia Puchatka 17;1;97;42
+gospodarstwo;1000000;25;Gdynia;Kubusia Puchatka 17;0;50;76
+szeregowiec;680000;35;Olsztyn;Mietka 1;0;88;35
+dworek;440000;52;Katowice;Mickiewicza 9;0;16;43
+wolnostojacy;2000000;62;Kielce;Pszczynska 32;1;14;33
+szeregowiec;250000;68;Lublin;Pszczynska 32;1;23;17
+gospodarstwo;234000;62;Bialystok;Wolnosci 4;0;29;71
+szeregowiec;440000;50;Gdansk;Mickiewicza 9;0;50;31
+blizniak;250000;80;Szczecin;Tomasza 12;1;20;48
+wolnostojacy;750000;25;Katowice;Kubusia Puchatka 17;0;37;57
+wolnostojacy;1500000;35;Gdansk;Polska 20;0;83;35
+gospodarstwo;390000;65;Rzeszow;Kubusia Puchatka 17;0;37;30
+gospodarstwo;440000;35;Warszawa;Kamienista 30;1;20;59
+szeregowiec;1500000;45;Katowice;Tomasza 12;0;53;16
+blizniak;960000;48;Szczecin;Krzywa 8;0;32;68
+dworek;500000;62;Krakow;Tomasza 12;1;97;60
+szeregowiec;1000000;40;Gdansk;Pszczynska 32;1;25;31
+dworek;780500;45;Opole;Wladyslawa Reymonta 7;1;64;12
+wolnostojacy;234000;52;Wroclaw;Prosta 5;0;31;39
+gospodarstwo;1200000;52;Bydgoszcz;Kamienista 30;1;27;24
+blizniak;975000;20;Poznan;Jana Matejki 14;1;66;99
+gospodarstwo;1540000;80;Poznan;Prosta 5;1;17;39
+blizniak;980000;50;Poznan;Kolorowa 23;1;95;72
+wolnostojacy;1000000;97;Bydgoszcz;Krzywa 8;0;89;97
+szeregowiec;300000;66;Poznan;Prosta 5;0;50;23
+dworek;250000;30;Wroclaw;Kolorowa 23;0;71;65
+wolnostojacy;1540000;95;Poznan;Mickiewicza 9;1;95;22
+dworek;780500;60;Kielce;Polska 20;1;61;76
+wolnostojacy;400000;62;Gliwice;Wladyslawa Reymonta 7;0;93;88
+dworek;760000;95;Kielce;Krzywa 8;0;37;78
+szeregowiec;980000;68;Lublin;Kamienista 30;0;40;77
+szeregowiec;234000;48;Wroclaw;Kubusia Puchatka 17;0;90;13
+gospodarstwo;150000;89;Poznan;Kubusia Puchatka 17;1;78;45
+szeregowiec;760000;89;Szczecin;Prosta 5;1;68;32
+gospodarstwo;680000;100;Opole;Kubusia Puchatka 17;1;34;70
+blizniak;500000;30;Warszawa;Mietka 1;1;23;58
+gospodarstwo;2000000;65;Gliwice;Polska 20;0;76;64
+gospodarstwo;234000;97;Krakow;Pszczynska 32;1;52;51
+gospodarstwo;680000;66;Gdansk;Prosta 5;0;54;66
+szeregowiec;750000;40;Poznan;Pszczynska 32;1;84;52
+blizniak;960000;52;Opole;Prosta 5;0;46;46
+wolnostojacy;234000;62;Gliwice;Jana Matejki 14;0;12;91
+szeregowiec;780500;20;Bialystok;Jana Matejki 14;1;10;69

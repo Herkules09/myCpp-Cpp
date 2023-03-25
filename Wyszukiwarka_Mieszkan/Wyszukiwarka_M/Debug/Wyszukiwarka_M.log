@@ -1,0 +1,25 @@
+﻿  Advantages.cpp
+C:\Users\michk\source\repos\Wyszukiwarka_M\Wyszukiwarka_M\Advantages.cpp(10,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Apartment.cpp
+  ApartmentsBase.cpp
+  Coordinates.cpp
+  fileReader.cpp
+  Filters.cpp
+  Hospital.cpp
+  HospitalsBase.cpp
+  House.cpp
+  HousesBase.cpp
+  InfListElement.cpp
+  Infrastructure.cpp
+  InfrastructuresList.cpp
+C:\Users\michk\source\repos\Wyszukiwarka_M\Wyszukiwarka_M\InfrastructuresList.cpp(32,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  main.cpp
+  Building.cpp
+  Search.cpp
+C:\Users\michk\source\repos\Wyszukiwarka_M\Wyszukiwarka_M\Search.cpp(82,8): warning C4101: "z": lokalna zmienna, do której nie istnieje odwołanie
+  Stan.cpp
+  Supermarket.cpp
+  SupermarketsBase.cpp
+  Generowanie kodu...
+C:\Users\michk\source\repos\Wyszukiwarka_M\Wyszukiwarka_M\fileReader.cpp(25): warning C4715: "fileReader::readFile”: niewszystkie ścieżki kodu zwracają wartość
+  Wyszukiwarka_M.vcxproj -> C:\Users\michk\source\repos\Wyszukiwarka_M\Debug\Wyszukiwarka_M.exe
