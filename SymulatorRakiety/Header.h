@@ -10,3 +10,7 @@
 #include<vector>
 #include<string>
 #include<fstream>
+#include<regex>
+#include <filesystem>
+
+namespace fs = std::filesystem;

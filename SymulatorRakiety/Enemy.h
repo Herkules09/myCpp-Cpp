@@ -3,9 +3,7 @@
 #include"Header.h"
 #include "Game.h"
 #include"DEFINITIONS.h"
-#include"TEX_NAMES.h"
-;
-
+import Tex_Names;
 
 class Enemy
 {
@@ -36,6 +34,7 @@ public:
 	void setHp(int damage);
 	const int& getHealing() const;
 	const sf::FloatRect getBounds() const;
+	void moveShapes(float dt);
 	void update();
 	void draw();
 

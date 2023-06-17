@@ -61,7 +61,6 @@ std::vector<std::string> Score::getScoresFromFile(std::string pathname,std::stri
 		size++;
 	}
 
-	//start of circular array & size of it 
 	int start = size > number_of_scores ? (size % number_of_scores) : 0; 
 	int count = std::min(number_of_scores, size); 
 
@@ -77,10 +76,19 @@ std::vector<std::string> Score::getScores()
 }
 
 
-void Score::saveScores(std::string pathname,std::string hightscore_path)
+void Score::saveScores()
 {
-	std::ofstream file(pathname);
-	std::ofstream hightscore_file(hightscore_path,std::ios::trunc);
+	std::string folderPath = FOLDER_SCORES_NAME;
+		;
+	fs::path cel = fs::path(fs::current_path()/ folderPath);
+	if (!fs::exists(cel)) {
+		fs::create_directory(FOLDER_SCORES_NAME);
+	}
+	std::string scores = folderPath + "/historyScores.txt";
+	std::string hightScore = folderPath + "/hightScore.txt";
+
+	std::ofstream file(scores);
+	std::ofstream hightscore_file(hightScore,std::ios::trunc);
 	if (file.is_open()) {
 		for (size_t i = 0; i < this->history_scores.size(); i++)
 		{
@@ -94,6 +102,10 @@ void Score::saveScores(std::string pathname,std::string hightscore_path)
 
 }
 
-void Score::drawScores()
+void Score::resetScores()
 {
+	fs::remove(HISTORY_SCORES_PATH);
+	fs::remove(HIGHTSCORE_PATH);
 }
+
+

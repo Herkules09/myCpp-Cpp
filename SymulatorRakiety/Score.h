@@ -24,8 +24,8 @@ public:
 	std::vector<std::string> getScoresFromFile(std::string pathname, std::string hightscory_path);
 	std::vector<std::string> getScores();
 	
-	void saveScores(std::string pathname, std::string hightscore_path);
-	void drawScores();
+	void saveScores();
+	void resetScores();
 };
 
 #endif

@@ -3,6 +3,7 @@
 void Enemy::initVariables()
 {
 	this->setType(this->randType());
+
 	this->setParameters();
 }
 
@@ -11,11 +12,11 @@ void Enemy::initShape()
 	switch (this->type) {
 	case MARS:
 		this->enemyShape.setTexture(data->assets.getTexture(toString(EnemyType::MARS)));
-		this->enemyShape.scale(0.05f, 0.05f);
+		this->enemyShape.scale(0.06f, 0.06f);
 		break;
 	case MOON:
 		this->enemyShape.setTexture(data->assets.getTexture(toString(EnemyType::MOON)));
-		this->enemyShape.scale(0.03f, 0.03f);
+		this->enemyShape.scale(0.02f, 0.02f);
 		break;
 
 	case ASTEROID:
@@ -61,14 +62,14 @@ void Enemy::setParameters()
 		break;
 	case ASTEROID:
 		this->points = 3;
-		this->hpMax = 5;
+		this->hpMax = 4;
 		this->hp = hpMax;
 		this->damage = 3;
 		this->healing = 0;
 		break;
 	case HEALBALL:
 		this->points = 0;
-		this->hpMax = 2;
+		this->hpMax = 10;
 		this->hp = hpMax;
 		this->damage = 0;
 		this->healing = 1;
@@ -77,12 +78,12 @@ void Enemy::setParameters()
 		this->points = 5;
 		this->hpMax = 2;
 		this->hp = hpMax;
-		this->damage = 5;
+		this->damage = 3;
 		this->healing = 0;
 		break;
 	case BOSS:
 		this->points = 10;
-		this->hpMax = 8;
+		this->hpMax = 4;
 		this->hp = hpMax;
 		this->damage = 10;
 		this->healing = 0;
@@ -93,20 +94,20 @@ void Enemy::setParameters()
 const int Enemy::randType() const
 {
 	int type;
-	int randValue(rand() % 300 + 1);
+	int randValue(rand() % 330 + 1);
 	if (randValue <= 100) {
 		type = EnemyType::MOON;
 	}
-	else if (randValue > 100 && randValue <= 170) {
+	else if (randValue > 100 && randValue <= 200) {
 		type = EnemyType::MARS;
 	}
-	else if (randValue > 170 && randValue <= 220) {
+	else if (randValue > 200 && randValue <= 250) {
 		type = EnemyType::ROCKET;
 	}
-	else if (randValue > 220 && randValue <= 250) {
+	else if (randValue > 250 && randValue <= 270) {
 		type = EnemyType::HEALBALL;
 	}
-	else if (randValue > 250 && randValue <= 280) {
+	else if (randValue > 270 && randValue <= 290) {
 		type = EnemyType::ASTEROID;
 	}
 	else {
@@ -155,6 +156,30 @@ const sf::FloatRect Enemy::getBounds() const
 	return this->enemyShape.getGlobalBounds();
 }
 
+void Enemy::moveShapes(float dt)
+{
+	switch (this->type) {
+	case MOON:
+		this->enemyShape.move(0.f, 55.f*dt);
+		break;
+	case MARS:
+		this->enemyShape.move(0.f, 50.f* dt);
+		break;
+	case ASTEROID:
+		this->enemyShape.move(0.6f* dt, 7.f* dt);
+		break;
+	case HEALBALL:
+		this->enemyShape.move(0.f, 70.f* dt);
+		break;
+	case ROCKET:
+		this->enemyShape.move(0.f, 70.f* dt);
+		break;
+	case BOSS:
+		this->enemyShape.move(0.f, 30.f* dt);
+		break;
+	}
+}
+
 
 
 Enemy::Enemy(GameDataRef data, float dir_x,float dir_y):data(data)
@@ -170,26 +195,7 @@ Enemy::~Enemy()
 
 void Enemy::update()
 {
-	switch (this->type) {
-	case MOON:
-		this->enemyShape.move(0.f, 0.6f);
-		break;
-	case MARS:
-		this->enemyShape.move(0.f, 0.5f);
-		break;
-	case ASTEROID:
-		this->enemyShape.move(0.05f, 0.4f);
-		break;
-	case HEALBALL:
-		this->enemyShape.move(0.f, 5.f);
-		break;
-	case ROCKET:
-		this->enemyShape.move(0.f, 2.f);
-		break;
-	case BOSS:
-		this->enemyShape.move(0.f, 1.f);
-		break;
-	}
+	
 }
 
 void Enemy::draw()

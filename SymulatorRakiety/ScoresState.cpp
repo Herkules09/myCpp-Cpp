@@ -3,10 +3,9 @@
 void ScoresState::initAssets()
 {
 	this->data->assets.loadTexture("Background texture", GAME_BACKGROUND_FILEPATH);
-	this->data->assets.loadTexture("goBackButton", BUTTON_FILEPATH);
+	this->data->assets.loadTexture("button", BUTTON_FILEPATH);
 	this->data->assets.loadTexture("goBack", GO_BACK_BUTTON_FILEPATH);
 	this->data->assets.loadTexture("goBackRed", GO_BACK_RED_BUTTON_FILEPATH);
-
 	this->data->assets.loadSoundBuffer("Menu Soundtrack1", SOUNDTRACK_MENU_PATH);
 	this->data->assets.loadSoundBuffer("Click Button", CLICK_BUTTON_EFFECT_PATH);
 }
@@ -33,6 +32,11 @@ void ScoresState::init()
 	this->title.setCharacterSize(40);
 	this->title.setString("RESULTS HISTORY");
 	this->title.setPosition((SCREEN_WIDTH / 2) - (title.getGlobalBounds().width / 2), title.getGlobalBounds().height / 2);
+	this->resetText.setFillColor(sf::Color::White);
+	this->resetText.setFont(data->assets.getFont("Game Font"));
+	this->resetText.setCharacterSize(20);
+	this->resetText.setString("RESET SCORES");
+	this->resetText.setPosition(460.f, 760.f);
 	this->score_text.setFillColor(sf::Color::White);
 	this->score_text.setFont(data->assets.getFont("Game Font"));
 	this->score_text.setCharacterSize(30);
@@ -43,21 +47,22 @@ void ScoresState::init()
 	this->hightscore_text.setPosition((SCREEN_WIDTH / 3) - (hightscore_text.getGlobalBounds().width+55.f), title.getGlobalBounds().top + 60.f);
 	score = new Score(data);
 	this->results = score->getScoresFromFile(HISTORY_SCORES_PATH, HIGHTSCORE_PATH);
-
+	std::reverse(results.begin(), results.end());
 	std::stringstream ss;
 	for (std::string s : results) {
 		ss << s << "\n";
-		
-
 	}
 	
 	this->score_text.setString(ss.str());
 	this->hightscore_text.setString("HIGHTSCORE: " + std::to_string(score->getHightScore()));
 
-	this->goBackButton.setTexture(data->assets.getTexture("goBackButton"));
+	this->goBackButton.setTexture(data->assets.getTexture("button"));
 	this->goBackButton.setScale(0.2f, 0.4f);
 	this->goBackButton.setPosition(50.f, 670.f);
 	this->goBack.setTexture(data->assets.getTexture("goBack"));
+	this->resetButton.setTexture(data->assets.getTexture("button"));
+	this->resetButton.setScale(0.4f, 0.4f);
+	this->resetButton.setPosition(440.f, 670.f);
 	//this->goBack.setScale(0.2f, 0.4f);
 	this->goBack.setPosition(84.f, 743.f);
 	//this->soundtrack.play();
@@ -82,10 +87,24 @@ void ScoresState::handleInput()
 			this->goBack.setTexture(data->assets.getTexture("goBack"));
 		}
 
+		if (this->data->input.isSpriteTracked(this->resetButton, sf::Mouse::Left, this->data->window)) {
+			this->resetText.setFillColor(sf::Color::Red);
+		}
+		else {
+			this->resetText.setFillColor(sf::Color::White);
+		}
+
+
 		if (this->data->input.isSpriteClicked(this->goBackButton, sf::Mouse::Left, this->data->window))
 		{
-			//TODO: Sountrack error 
-			this->data->machine.addState(StateRef(new MainMenuState(data)), false);
+			this->clickButton.play();
+			this->data->machine.addState(StateRef(new MainMenuState(data)),false);
+		}
+
+		if (this->data->input.isSpriteClicked(this->resetButton, sf::Mouse::Left, this->data->window))
+		{
+			this->clickButton.play();
+			this->score->resetScores();
 		}
 
 	}
@@ -105,5 +124,7 @@ void ScoresState::draw(float dt)
 	this->data->window.draw(this->score_text);
 	this->data->window.draw(this->goBackButton);
 	this->data->window.draw(this->goBack);
+	this->data->window.draw(this->resetButton);
+	this->data->window.draw(this->resetText);
 	this->data->window.display();
 }

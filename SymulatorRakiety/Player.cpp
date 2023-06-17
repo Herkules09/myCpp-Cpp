@@ -34,7 +34,7 @@ void Player::initVariables()
 {
 	this->hpMax = 5;
 	this->hp = hpMax;
-	this->movementSpeed = 4.f;
+	this->movementSpeed = 5.f;
 	this->shootingColdownMax = 30.f;
 	this->damage = 1;
 	this->shootingColdown = this->shootingColdownMax;
@@ -43,16 +43,16 @@ void Player::initVariables()
 void Player::updateInput()
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
-		this->move(0.f, -1.f);
+		this->move(0.f, -1.1f);
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
-		this->move(0.f, 1.f);
+		this->move(0.f, 1.1f);
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
-		this->move(-1.f, 0.f);
+		this->move(-1.1f, 0.f);
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
-		this->move(1.f, 0.f);
+		this->move(1.1f, 0.f);
 	}
 }
 

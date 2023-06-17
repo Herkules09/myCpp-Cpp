@@ -6,6 +6,7 @@
 #include"Player.h"
 #include"Bullet.h"
 #include"GameOverState.h"
+#include"MainMenuState.h"
 #include "DEFINITIONS.h"
 #include"Flash.h"
 #include"Score.h"
@@ -15,6 +16,7 @@ class GameState : public State
 private:
 	GameDataRef data;
 	sf::Sprite background;
+	sf::Clock clock;
 	Flash* flash;
 
 	Player* player;

@@ -1,3 +1,4 @@
+import Tex_Names;
 #include "Bullet.h"
 
 void Bullet::initVariables()

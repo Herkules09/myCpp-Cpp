@@ -99,11 +99,11 @@ void GameState::updateEnemies()
 {
 	if (this->enemies.size() < this->maxEnemies) {
 		if (this->spawnTimer >= this->spawnTimerMax) {
-			this->enemies.push_back(new Enemy(data,rand() % this->data->window.getSize().x*0.8f - 20.f, -100.f));
+			this->enemies.push_back(new Enemy(data,rand() % (this->data->window.getSize().x -55)+10.f, -50.f));
 			this->spawnTimer = 0.f;
 		}
 		else {
-			this->spawnTimer += 0.5f;
+			this->spawnTimer += 0.5f +clock.getElapsedTime().asSeconds()/80;
 		}
 	}
 
@@ -112,20 +112,21 @@ void GameState::updateEnemies()
 		enemy->update();
 
 		if (enemy->getBounds().top > this->data->window.getSize().y) {
-
-			delete this->enemies.at(counter);
-			this->enemies.erase(this->enemies.begin() + counter);
-			--counter;
 			if (enemy->getType() == EnemyType::MARS || enemy->getType() == EnemyType::MOON) {
 				this->isGameOver = true;
 			}
+			delete this->enemies.at(counter);
+			this->enemies.erase(this->enemies.begin() + counter);
+			--counter;
+			
 		}
 		else if (enemy->getBounds().intersects(this->player->getBounds())) {
 			
 			this->player->setHp(enemy->getDamage(), enemy->getHealing());
 			if (this->player->getHp() == 0) {
 				this->score->setActualScore(this->points);
-				this->score->saveScores(HISTORY_SCORES_PATH, HIGHTSCORE_PATH);
+				this->score->saveScores();
+				this->clock.restart();
 				this->isGameOver = true;
 			}
 			delete this->enemies.at(counter);
@@ -220,7 +221,8 @@ void GameState::handleInput()
 		}
 
 		if (this->isGameOver) {
-			this->data->machine.addState(StateRef(new GameOverState(data)), true);
+			
+			this->data->machine.addState(StateRef(new GameOverState(data)), false);
 		}
 	}
 }
@@ -234,6 +236,10 @@ void GameState::update(float dt)
 	this->updateInput();
 	this->updateCombat();
 	this->updateEnemies();
+	for (unsigned short int i = 0; i < enemies.size(); i++)
+	{
+		enemies.at(i)->moveShapes(dt);
+	}
 	this->updateBullets();
 	this->updateGUI();
 	

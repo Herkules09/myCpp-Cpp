@@ -16,6 +16,7 @@ private:
 	sf::Sprite background;
 	sf::Sprite title;
 	sf::Sprite scores;
+	sf::Sprite exitButton;
 	sf::Sprite playButton;
 	sf::Sprite scoresButton;
 	std::map<std::string, sf::Text*> text;

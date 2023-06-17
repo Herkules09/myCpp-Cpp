@@ -4,7 +4,7 @@
 #define SCREEN_HEIGHT 900
 
 #define SPLASH_STATE_SHOW_TIME 3.0
-#define SPLASH_SCENE_BACKGROUND_FILEPATH "Resources/res/splash.png"
+#define SPLASH_SCENE_BACKGROUND_FILEPATH "Resources/res/computer.png"
 
 #define MAIN_MENU_BACKGROUND_FILEPATH "Resources/res/galaxy.jpg"
 #define GAME_TITLE_FILEPATH "Resources/res/title1.png"
@@ -22,7 +22,7 @@
 #define ENEMY_ROCKET_PATH "Resources/res/enemy2.png"
 #define ENEMY_BADBALL_PATH "Resources/res/enemy3.png"
 #define ENEMY_HEALTH_PATH "Resources/res/health.png"
-#define ENEMY_MARS_PATH "Resources/res/planet1.png"
+#define ENEMY_MARS_PATH "Resources/res/planet3.png"
 #define ENEMY_MOON_PATH "Resources/res/planet2.png"
 #define ENEMY_BOSS_PATH "Resources/res/boss.png"
 
@@ -30,11 +30,10 @@
 
 #define BULLET_1_PATH "Resources/res/bullet1.png"
 
-#define HIGHTSCORE_PATH "Resources/hightscore.txt"
-#define HISTORY_SCORES_PATH "Resources/history_scores.txt"
+#define HIGHTSCORE_PATH "Score_files/hightScore.txt"
+#define HISTORY_SCORES_PATH "Score_files/historyScores.txt"
 #define NUMBER_OF_HISCORY_SCORES 10
-
-
+#define FOLDER_SCORES_NAME "Score_files"
 
 #define SOUNDTRACK_MENU_PATH "Resources/soundEffects/mainMenuSoudtrack1.wav"
 #define SHOT_EFFECT_PATH "Resources/soundEffects/shooting1.wav"
